@@ -5,14 +5,297 @@
 }
 
 body{
-    line-height: 1.7;
-    font-size: 16px;
+    line-height:16px;
+    text-transform: capitalize;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/* Header Section */
+
+header{
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('../images/header.jpeg');
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.header-text{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: orange;
+    font-family: 'Patua One', cursive;
+    line-height: 40px;
+}
+
+.header-main{
+    font-size: 60px;
+}
+
+.header-sub{
+    font-size: 30px;
+    float: right;
+}
+/* End of Header Section */
+
+/* Navbar Section */
+
+.nav{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-top:-480px;
+    margin-left:80px;
+    margin-right:80px;
+    overflow: hidden;
+    background-color:white;
+    box-shadow:0px 13px 20px rgba(0, 0, 0,0.6);
+    font-family: 'Baloo Bhai', cursive;
+    
+}
+
+.nav-link:link,
+.nav-link:visited{
+    text-decoration: none;
+    color:#B6B6B6;
+    transition: all .4s;
+    margin-left: 70px;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color:orange;
 }
 
 .s-icons{
-	width:30px;
+    width: 30px;
+    margin-right: 40px;
+    margin-top: -10px;
 }
 
-.nav-right.nav-left{
-	display:inline-block;
+.nav-right{
+    float: right;
+    display: inline-block;
 }
+
+.nav-left{
+    display: inline-block;
+}
+
+/* End of Navbar Section */
+
+/* Counter Section */
+
+.counter-section{
+    background-color: white;
+    box-shadow:0px 1px 40px rgba(0, 0, 0, 0.733);
+    font-family: 'Baloo Bhai', cursive;
+    color:black;
+    font-size:20px;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   margin-top: 300px;
+}
+
+.counter-section-text{
+    display: inline-block;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.count{
+    color:black;
+    font-size: 60px;
+}
+
+/* End of Counter Section */
+
+/* Intro Text */
+.intro{
+    position: absolute;
+    height: 80vh;
+}
+
+.textbox{
+    position: relative;
+    top:60px;
+}
+
+.text-intro{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin-top: 60px;
+    color: orange;
+}
+
+.text-heading{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-para{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+}
+
+
+/* Introduction Section */
+
+.cards{
+    text-align: center;
+    height: 60vh;
+    margin-top: 320px;
+    clear: both;
+}
+
+.card{
+    display:block;
+    width:25%;
+    margin-left: 80px;
+    transition: all 0.3s;
+    float: left;
+}
+
+.card:hover {
+    transform: translateY(3px);
+    box-shadow:0px 1px 30px rgba(255, 174, 0, 0.719);
+}
+
+.card-1{
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card1.jpg');
+    background-size: cover;
+}
+
+.card-2{
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card2.jpg');
+    background-size: cover;
+}
+
+.card-3{
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card3.jpg');
+    background-size: cover;
+}
+
+.card-header{
+    color:white;
+    font-family: 'Baloo Bhai', cursive;
+    padding:100px;
+    letter-spacing: 3px;
+}
+
+/* End of Introduction Section */
+.quote{
+    position: relative;
+    /* background-color: rgba(128, 128, 128, 0.24); */
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 0, 0.512),rgba(0, 0, 0, 0.64)),url('../images/waves.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.quote-text{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    color: orange;
+    line-height: 40px;
+   
+}
+
+.quote-sign{
+    font-size: 60px;
+    margin-left: 50%;
+    color:orange;
+}
+
+.quote-main{
+    font-size: 30px;
+    color:white;
+    transition: all 0.5s;
+}
+
+.quote-main:hover{
+    color:orange;
+}
+
+.quote-sub{
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+/* Join Us Section */
+
+.join-us{
+    margin-top: 100px;
+    height: 90vh;
+    background-color:white;
+    position: relative;
+}
+
+.join-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+input{
+
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+    font-size: 20px;
+    transition: all .4s;
+}
+input:focus{
+    outline-width: 0;
+    border-color: orange;
+}
+.join-header{
+    font-family: 'Patua One', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+.join-image{
+    margin-top: -50px;
+    float: right;
+    height: 550px;
+}
+label{
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+.submit:link,
+.submit:visited{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding:15px 35px;
+    border-radius: 100px;
+    font-family: 'Baloo Bhai', cursive;
+    letter-spacing: 5px;
+    transition: all 0.4s;
+}
+
+.submit:hover{
+    background-color: rgb(255, 136, 0);
+    color: black;
+    box-shadow: 0px 13px 20px rgba(61, 11, 11, 0.315);
+    transform: translateY(3px);
+}
+
+/* End of Join Us Section */
