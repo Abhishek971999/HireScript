@@ -9,6 +9,7 @@ body{
     text-transform: capitalize;
     font-size: 17px;
     text-transform: uppercase;
+	
 }
 
 /* Header Section */
@@ -172,17 +173,17 @@ header{
 }
 
 .card-1{
-    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card1.jpg');
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('../images/card1.jpg');
     background-size: cover;
 }
 
 .card-2{
-    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card2.jpg');
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('../images/card2.jpg');
     background-size: cover;
 }
 
 .card-3{
-    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('images/card3.jpg');
+    background-image:linear-gradient(to right bottom,rgba(128, 128, 128, 0.512),rgba(0, 0, 0, 0.54)),url('../images/card3.jpg');
     background-size: cover;
 }
 
